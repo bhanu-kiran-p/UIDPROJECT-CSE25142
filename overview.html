@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="overview.css">
+</head>
+
+<body>
+    <div class="header">
+        <div>
+            <p>Google One</p>
+        </div>
+        <ul>
+            <li class="current-page"><a href="overview.html">Overview</a></li>
+            <li><a href="googleai.html">Google AI</a></li>
+            <li><a href="https://one.google.com/about/plans">Plans and Pricing</a></li>
+        </ul>
+        <div class="signup_button">
+            <a href="https://one.google.com/about/plans"><button type="button" class="button1">Sign up</button></a>
+        </div>
+    </div>
+    <div class="name">
+        <img src="images/overviewlogo.png" alt="logo">
+        <h1>We’ve leveled up what our AI plans can do for you</h1>
+        <h2>Fresh from Google I/O</h2>
+        <div class="carousel">
+            <div class="carousel-tracks">
+                <div>
+                    <h3>Gemini Omni</h3>
+                    <p>Create vedios with our new gemini model, Omni</p>
+                </div>
+                <div>
+                    <h3>Gemini Spark</h3>
+                    <p>coming soon: your 24/7 personal assistant</p>
+                </div>
+                <div>
+                    <h3>Youtube Premium Lite</h3>
+                    <p>Youtube premium lite is now included with Google AI Pro</p>
+                </div>
+                <div>
+
+                    <h3>Daily Brief</h3>
+                    <p>coming soon: Start your day with a personalised brief with Gemini</p>
+                </div>
+                <div>
+                    <h3>All the mail in inbox</h3>
+                    <p>Stay on top of what matters with AI inbox</p>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <a href=""><button class="button1">Learn More</button></a>
+    </div>
+
+    <div class="ai_plans">
+        <h1><span>Google AI plans</span></h1>
+        <h5>More power, more perks, same price</h5>
+        <div>
+            <div class="rings">New Features Added</div>
+            <h2>Google AI Plus<sup>1</sup></h2>
+            <h3>₹399/mo</h3>
+            <h4>200 GB storage</h4>
+            <p>Unlock essential tools to boost productivity and creativity</p>
+            <h6>Includes:</h6>
+            <ul>
+                <li>&#10003; 2x higher usage limits* in Gemini</li>
+                <li>&#10003; Omni in Gemini</li>
+                <li>&#10003; Daily Brief in Gemini (coming soon)</li>
+                <li>&#10003; AI Inbox in Gmail</li>
+            </ul>
+            <button class="button1">Get Plus &rarr;</button>
+        </div>
+        <div>
+            <div class="rings">New Features Added</div>
+            <h2>Google AI Pro<sup>1</sup></h2>
+            <h3>₹1,950/mo</h3>
+            <h4>5 TB storage</h4>
+            <p>Create faster and get more done with expanded access to Gemini</p>
+            <h6>Includes everything in Plus, and:</h6>
+            <ul>
+                <li>&#10003; 4x higher usage limits* in Gemini</li>
+                <li>&#10003; Access to our Pro model</li>
+                <li>&#10003; YouTube Premium Lite</li>
+            </ul>
+            <button class="button1">Get Pro &rarr;</button>
+        </div>
+        <div class="ultra">
+            <div class="rings">New Plan</div>
+            <h2>Google AI Ultra<sup>1</sup></h2>
+            <h3>From ₹6,500/mo</h3>
+            <h4>Starting at 20 TB of storage</h4>
+            <p>Accelerate your workflows with higher access to Gemini</p>
+            <h6>Includes everything in Pro, and:</h6>
+            <ul>
+                <li>&#10003; Up to 20x more limits in Gemini than the Pro plan</li>
+                <li>&#10003; Gemini Spark (coming soon)</li>
+                <li>&#10003; YouTube Premium individual<sup>3</sup></li>
+                <li>&#10003; Early access to the latest innovations</li>
+            </ul>
+            <button class="button1">Get Ultra &rarr;</button>
+        </div>
+        <p class="footnote">* In comparison to non-AI subscribers</p>
+        <span style="width: 100%; text-align: center; margin-top: 20px;">
+            <button class="button1">Compare plans</button>
+        </span>
+    </div>
+    <div class="storage_plans">
+        <h1>Google storage plans</h1>
+        <div>
+            <h3>Lite</h3>
+            <h4>30 GB</h4>
+            <h5>₹59/month</h5>
+            <p>Extra storage for photos, files and device backups</p>
+            <button class="button1">Get Lite</button>
+        </div>
+        <div>
+            <h3>Basic</h3>
+            <h4>100 GB</h4>
+            <h5>₹130/month</h5>
+            <p>Extra storage for photos, files and device backups</p>
+            <button class="button1">Get Basic</button>
+        </div>
+        <div>
+            <h3>Premium</h3>
+            <h4>2 TB</h4>
+            <h5>₹650/month</h5>
+            <p>Plenty of storage and upgraded capabilities across apps</p>
+            <button class="button1">Get Premium</button>
+        </div>
+    </div>
+
+    <div class="best_of_google">
+        <div class="best_of_google_header">
+            <div class="typing-effect">
+                <h1><span id="typed-target"></span></h1>
+            </div>
+            <h2>Designed to take <span>your ideas further</span></h2>
+            <p>Research, write and create faster than ever with the Gemini app in Google AI Pro.</p>
+            <button class="button1">Sign up for Google AI plan</button>
+        </div>
+        <div class="best_of_google1" onclick="showCard(this)">
+            <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                <div>
+                    <div class="initial">
+                        <h1>Boost productivity with <span>Gemini in your Google apps</span></h1>
+                    </div>
+                    <div class="final hidden">
+                        <h2><span>Breeze through your tasks</span> with Gemini by your side</h2>
+                        <p>Gemini acts as your personal assistant inside the tools you use every day. Draft documents,
+                            organise data, onduct deeper searchh, and hand off multi-step web tasksto AI, feeling you up
+                            to
+                            focus on what matters</p>
+                    </div>
+                </div>
+                <img src="images2/best_of_google1.png" alt="best_of_google1">
+            </div>
+            <button class="button2" id="best_of_google1-button">+</button>
+        </div>
+        <div class="best_of_google2" onclick="showCard(this)">
+            <div>
+                <div class="initial">
+                    <h1>Bring your next <span>creative masterpeice to life</span></h1>
+                </div>
+                <div class="final hidden">
+                    <h2>Let your <span>imaginatioon run wid</span></h2>
+                    <p>Bring your ideas to life across video, images, and music with simple prompts. Easily refine your
+                        creations until they match your exact vision.</p>
+                </div>
+            </div>
+            <img src="images2/best_of_google2.png" alt="best_of_google2">
+            <button class="button2" id="best_of_google2-button">+</button>
+        </div>
+        <div class="best_of_google3" onclick="showCard(this)">
+            <div>
+                <div class="initial">
+                    <h1><span>Code and release faster</span> with autonomous AI agents</h1>
+                </div>
+                <div class="final hidden">
+                    <h2><span>Direct AI agents </span>to build and refine your code</h2>
+                    <p>Guide autonomous agents to plan, develop, and improve your code, then use Google Developer
+                        Program benefits to deploy with confidence</p>
+                </div>
+            </div>
+            <img src="images2/best_of_google3.png" alt="best_of_google3">
+            <button class="button2" id="best_of_google3-button">+</button>
+        </div>
+        <div class="explore_btn">
+            <button class="button1">Explore all Google AI plan benifits</button>
+        </div>
+    </div>
+
+    <div class="one_place">
+        <h1 class="info">One place to store all your things</h1>
+        <div class="one_place1" onclick="showCard(this)">
+            <div class="initial" style="display: flex; flex-direction: column; height: 100%;">
+                <h1>More to store across your </h1>
+                <img src="images2/oneplace1.png" alt="oneplace1" id="one_place1-img1">
+            </div>
+            <div class="final hidden" style="display: flex; flex-direction: column; height: 100%;">
+                <img src="images2/oneplace1.png" alt="oneplace1_alt" id="one_place1-img2">
+            </div>
+            <button class="button2" id="one_place1-button">+</button>
+        </div>
+        <div class="one_place2" onclick="showCard(this)">
+            <div class="initial" style="display: flex; flex-direction: column; height: 100%;">
+                <h1>Auto device backups</h1>
+                <img src="images2/oneplace2.png" alt="oneplace2" id="one_place2-img1">
+            </div>
+            <div class="final hidden" style="display: flex; flex-direction: column; height: 100%;">
+                <img src="images2/oneplace2.png" alt="oneplace2_alt" id="one_place2-img2">
+            </div>
+            <button class="button2" id="one_place2-button">+</button>
+        </div>
+        <div class="one_place3" onclick="showCard(this)">
+            <div class="initial" style="display: flex; flex-direction: column; height: 100%;">
+                <h1>More than enough room to share</h1>
+                <img src="images2/oneplace3.png" alt="oneplace3" id="one_place3-img1">
+            </div>
+            <div class="final hidden" style="display: flex; flex-direction: column; height: 100%;">
+                <img src="images2/oneplace3.png" alt="oneplace3_alt" id="one_place3-img2">
+            </div>
+            <button class="button2" id="one_place3-button">+</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="compare_plans">
+        <div class="compare_plans_header">
+            <h1>
+                Find the right Google AI plan for you
+            </h1>
+        </div>
+        <table>
+            <colgroup>
+                <col class="elements_col">
+                <col span="3" class="comparing_col">
+            </colgroup>
+            <thead>
+                <tr>
+                    <td id="first-cell"></td>
+                    <td>Free of charge
+                        <p>₹0/mo</p>
+                    </td>
+                    <td>Limited
+                        <p>₹59/mo</p>
+                    </td>
+                    <td>
+                        Basic
+                        <p>₹130/mo</p>
+                    </td>
+                    <td>Standard
+                        <p>₹210/mo</p>
+                    </td>
+                    <td>Premium
+                        <p>₹650/mo</p>
+                    </td>
+                    <td><span>Google AI Plus</span>
+                        <p>₹399/mo</p>
+                    </td>
+                    <td>
+                        <span>Google AI Pro</span>
+                        <p>₹1,950/mo</p>
+                    </td>
+                    <td>
+                        <span>Google AI Ultra</span>
+                        <p>₹24,500/mo</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <h3>Storage</h3>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+
+                <tr>
+                    <td>Storage for Gmail, Drive, and Photos</td>
+                    <td>15 GB</td>
+                    <td>30 GB</td>
+                    <td>100 GB</td>
+                    <td>200 GB</td>
+                    <td>2 TB</td>
+                    <td>200 GB</td>
+                    <td>5 TB</td>
+                    <td>30 TB</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>Google AI</h3>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Gemini</h4>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <td>Access to most capable models</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>More</td>
+                    <td>More</td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Custom AI experts</td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                </tr>
+                <tr>
+                    <td>Image generation (Nano Banana Pro)</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Deep Research</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>File upload</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>More</td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Video generation model access</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td>Veo 3.1 Lite</td>
+                    <td>Veo 3.1 Lite</td>
+                    <td>Veo 3.1</td>
+                </tr>
+
+                <tr>
+                    <td>Create music with Lyria 3</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>More</td>
+                    <td>More</td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Priority access to new features</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                </tr>
+                <tr>
+                    <td>Expanded token context window</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td>128K</td>
+                    <td>128K</td>
+                    <td>One million</td>
+                    <td>One million</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Gemini in Gmail, Docs and more</h4>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <td>Help me connect in Meet</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                </tr>
+                <tr>
+                    <td>Help me connect in Video in Vids</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Flow</h4>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <td>Video generation model access</td>
+                    <td>Veo 3.1</td>
+                    <td>Veo 3.1</td>
+                    <td>Veo 3.1</td>
+                    <td>Veo 3.1</td>
+                    <td>Veo 3.1</td>
+                    <td>Veo 3.1</td>
+                    <td>Veo 3.1 </td>
+                    <td>Veo 3.1</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Google AI Studio</h4>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <td>Access to our most capable models</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Vibe codinig agent :daily usage across Flash and zpro models</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Image generation and editing with Nanao banana Pro</td>
+                    <td>limited</td>
+                    <td>limited</td>
+                    <td>limited</td>
+                    <td>limited</td>
+                    <td>limited</td>
+                    <td>limited</td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Priority access to new features</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Google Search</h4>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <td>Access to our most capable models</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>More</td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Image generation and editing with Nanao banana Pro</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>limited</td>
+                    <td>More</td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Jules</h4>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <td>Task Limits</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Expanded</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Concurrent task limits</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Expanded</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Access to latest models</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>limited</td>
+                    <td>Expanded</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Google Developer Programme premium</h4>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <td>gemini Code Assist and Gemini CLI: daily model requests across Flash and Pro models</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>Google Cloud Credits</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td>$10 monthly credits</td>
+                    <td>$100 monthly credits</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Google Antigravity</h4>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <td>Agent requests</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                    <td>Higher</td>
+                    <td>Highest</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>More benefits</h3>
+                    </td>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <td>Premium video calling features in Google Meet</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                </tr>
+                <tr>
+                    <td>Enhanced appointment scheduling in Google Calendar</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="check">✔</span></td>
+                    <td><span class="check">✔</span></td>
+                </tr>
+                <tr>
+                    <td id="last-cell">YouTube Premium</td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td><span class="cross">✘</span></td>
+                    <td>add-on Availability varies by country</td>
+                    <td><span class="cross">✘</span></td>
+                    <td>add-on Availability varies by country</td>
+                    <td>Availability varies by country</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="overview">
+        <h1>Keep up with the world of Google One</h1>
+        <div class="overview-cards">
+            <div class="overview-card">
+                <img src="images2/overview1.png" alt="overview1">
+                <div class="overview-card-content">
+                    <h2>Get started with Google's next-gen AI</h2>
+                </div>
+                <div class="overview-card-footer">
+                    <span>5 min read</span>
+                    <span>&rarr;</span>
+                </div>
+            </div>
+            <div class="overview-card">
+                <img src="images2/overview2.png" alt="overview2">
+                <div class="overview-card-content">
+                    <h2>Get more value out of Google One storage</h2>
+                </div>
+                <div class="overview-card-footer">
+                    <span>3 min read</span>
+                    <span>&rarr;</span>
+                </div>
+            </div>
+            <div class="overview-card">
+                <img src="images2/overview3.png" alt="overview3">
+                <div class="overview-card-content">
+                    <h2>Level up your learning with Google AI Pro for students</h2>
+                </div>
+                <div class="overview-card-footer">
+                    <span>4 min read</span>
+                    <span>&rarr;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="faq">
+        <h1>Frequently asked questions</h1>
+        <div class="faq_expand">
+            <span>Expand all +</span>
+        </div>
+
+        <div class="faq_list">
+            <div class="faq_item" onclick="show(this)">
+                <p>What is included in Google AI plans?</p>
+                <button>
+                    <h3>+</h3>
+                </button>
+                <div class="answer hidden">
+                    <p>There are three Google AI plans that users can subscribe to: Google AI Plus, Google AI Pro, and
+                        Google AI Ultra.</p>
+                </div>
+            </div>
+            <div class="faq_item" onclick="show(this)">
+                <p>Can I share the AI benefits included in Google AI plans?</p>
+                <button>
+                    <h3>+</h3>
+                </button>
+                <div class="answer hidden">
+                    <p>Family plan members on a Google AI Pro plan can enjoy AI benefits and features at no extra cost.
+                        Learn more.</p>
+                </div>
+            </div>
+            <div class="faq_item" onclick="show(this)">
+                <p>I'm a Google Workspace customer. Can I sign up for Google AI plans?</p>
+                <button>
+                    <h3>+</h3>
+                </button>
+                <div class="answer hidden">
+                    <p>Only personal Google Accounts can sign up for Google AI plans. Workspace customers can sign up
+                        for a Gemini add-on to their existing subscription. Learn more about which offering works best
+                        for you and your business.</p>
+                </div>
+            </div>
+            <div class="faq_item" onclick="show(this)">
+                <p>What countries are Google AI plans available in?</p>
+                <button>
+                    <h3>+</h3>
+                </button>
+                <div class="answer hidden">
+                    <p>You can get started with Google AI plans in the US, Canada, the UK, Australia, and 20+ other
+                        countries. Visit the Google One website to see a full list of where plans are available. </p>
+                </div>
+            </div>
+            <div class="faq_item" onclick="show(this)">
+                <p>How do I use the AI benefits included with Google AI plans?</p>
+                <button>
+                    <h3>+</h3>
+                </button>
+                <div class="answer hidden">
+                    <p>You can access AI benefits like Omni and Gemini in your browser, and in the Gemini, Google
+                        Workspace apps, Google Antigravity, and other Google products. To learn more about how to use
+                        these features, visit the Google One help centre.</p>
+                </div>
+            </div>
+            <div class="faq_item" onclick="show(this)">
+                <p>Can I create videos with a Google AI plan?</p>
+                <button>
+                    <h3>+</h3>
+                </button>
+                <div class="answer hidden">
+                    <p>You can create videos with the Gemini app using the Omni model, available in Google AI Pro and
+                        Google AI Ultra plans. Visit the Gemini app to learn more.</p>
+                </div>
+            </div>
+            <div class="faq_item" onclick="show(this)">
+                <p>What is the difference between AI Premium and a Google AI Pro plan?</p>
+                <button>
+                    <h3>+</h3>
+                </button>
+                <div class="answer hidden">
+                    <p>AI Premium is a Gemini add-on for Google Workspace customers, while Google AI Pro is a Google One
+                        plan for personal Google Accounts. Learn more.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stay">
+        <h1>Stay in the loop with Google One</h1>
+        <p>Get the latest updates and news from Google One, delivered to your inbox.</p>
+        <button class="button1">Subscribe &rarr;</button>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="project.js"></script>
+    <div class="footer">
+        <div class="footer-header">
+            <h2>Manage your plan and more with the Google One app</h2>
+            <img src="images/footer.png" alt="footer">
+        </div>
+        <div>
+            <ol>
+                <li>Google AI Plus, Pro, and Ultra plans are available in more than 140 countries and territories —
+                    see
+                    full list of countries. Certain AI benefits are only available for those aged 18+. Learn more.
+                </li>
+                <li>Gemini 3 Pro model, Nano Banana Pro, and Deep Search in AI Mode are available in select
+                    countries —
+                    see full list of countries with Gemini 3 Pro in AI Mode and full list of countries with Nano
+                    Banana
+                    Pro in AI Mode</li>
+                <li>Veo 3.1, Google Flow, and Google Flow Music are available in more than 140 countries and
+                    territories
+                    — see full list of countries for Veo 3.1, Google Flow, and Google Flow Music.</li>
+                <li>The Gemini API Additional Terms of Service and the Google Privacy Policy apply to your use of
+                    Google
+                    AI Studio. Learn more about data use.</li>
+                <li>Jules is an asynchronous coding agent that is currently in beta. To use Jules, you must be 18
+                    years
+                    old or older. Only English is officially supported at this time. Capacity is subject to
+                    availability
+                    and not guaranteed.</li>
+                <li>YouTube Premium individual plan is included in Google AI Ultra in over 40 countries — see full
+                    list
+                    of countries.</li>
+                <li>YouTube Premium Lite is available for Google AI Pro subscribers in select countries – see full
+                    list
+                    of countries. Age restrictions, language availability, system requirements and other
+                    restrictions
+                    may apply.</li>
+                <li>Google One members on certain plans get a percentage back on eligible Google Store purchases in
+                    the
+                    form of Google Store credit. Only available in the U.S., Canada, Australia, Germany, and the
+                    United
+                    Kingdom.</li>
+                <li>Project Genie is available in more the 140 countries - see full list of countries. Only
+                    available
+                    with a Google AI Ultra plan.</li>
+            </ol>
+        </div>
+        <div class="footer-navigation">
+            <p>Google</p>
+            <a href="https://about.google/">
+                <p>About Google</p>
+            </a>
+            <a href="https://about.google/products/?tip=conversions">
+                <p>Google Products</p>
+            </a>
+            <a href="https://policies.google.com/privacy">
+                <p>Privacy</p>
+            </a>
+            <a href="https://policies.google.com/terms">
+                <p>Terms</p>
+            </a>
+            <a href="https://support.google.com/googleone/#topic=9171059" style="margin-left: auto;">
+                <p>Help</p>
+            </a>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
